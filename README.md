@@ -87,9 +87,9 @@
 
 *   **Abstract:** This chapter focuses on collision detection, which is crucial for any physics engine. It implements a broad-phase collision detection system to optimize performance, followed by more accurate collision tests for circles, rectangles and circle-rectangle pairs.
 *   **Chapter 3.1: Broad Phase Collision Detection Method**
-    *    `Core.js`:
+    *   `Core.js`:
         *   Changes the update logic so that collision detection occurs before calling the update function.
-    *    `index.html`:
+    *   `index.html`:
         *   Includes the `Physics.js` script.
     *   `Physics.js`:
         *   Implements a broad-phase collision detection system.
