@@ -16,7 +16,7 @@
         *   Links to the `UserControl.js` and `Core.js` JavaScript files.
     *   `UserControl.js`:
         *   Adds a `userControl` function which handles keyboard events to draw shapes on the canvas.
-        *   Uses `keycode` of 70 to draw a rectangle and 71 to draw a circle at random positions on the canvas.
+        *   Uses the keys f to draw a rectangle and g to draw a circle at random positions on the canvas.
         *   Randomizes position, width, and height (for rectangles), and position and radius (for circles) when drawing.
 
 **Chapter 2: Implementing Rigid Shapes**
